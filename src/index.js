@@ -43,6 +43,6 @@ export function fibonacci(n) {
   return b
 }
 
-function greet(name) {
+export function greet(name) {
   return "Hello " + name;
 }
