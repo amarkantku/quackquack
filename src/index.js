@@ -44,5 +44,5 @@ export function fibonacci(n) {
 }
 
 export function greet(name) {
-  return "Hello " + name;
+  return "Hello! " + name;
 }
