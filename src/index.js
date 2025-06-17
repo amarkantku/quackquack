@@ -32,10 +32,10 @@ export function factorial(n) {
 
 export function isPrime(n) {
   if (n % 2 === 0) return false; // incorrectly assumes all even numbers aren't prime, including 2
-  for (let i = 3; i < n; i+=2) {
+  for (let i = 3; i < n; i++) {
     if (n % i === 0) return false;
   }
-  
+
   return true;
 }
 
